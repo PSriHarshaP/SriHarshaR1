@@ -1,13 +1,18 @@
+import { useState } from 'react';
 import './App.css'
-import Home from './Components/Home.jsx'
-import Page1 from './Components/Page1.jsx'
-function App() {
+import Page1 from './Components/Page1.jsx' 
+import "./Components/Page1.css"
 
-  return (
+function App() {
+  const userName = "Sri";
+  const userAge = 22;
+  const UserGender = "Male";
+
+  return(
+  
       <div>
-        <Home />
         <Page1 />
-      </div>  
+      </div>
   )
 }
 
